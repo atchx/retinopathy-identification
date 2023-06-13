@@ -44,6 +44,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+          <li><a class="nav-link scrollto" href="#cara-penggunaan">Cara Penggunaan</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,7 +79,7 @@
 
   <main id="main">
 
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Predict Section ======= -->
     {% if prediction %}
       <section id="predict" class="pricing">
         <div class="container" data-aos="fade-up">
@@ -103,7 +104,7 @@
         </div>
       </section>
     {% endif %}
-    <!-- End Pricing Section -->
+    <!-- End Predict Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="services section-bg">
@@ -140,6 +141,65 @@
 
       </div>
     </section><!-- End About Section -->
+
+    <!-- ======= Cara Section ======= -->
+    <section id="cara-penggunaan" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+    
+        <div class="row">
+    
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+    
+            <div class="content">
+              <h3>Cara menggunakan <strong>Aplikasi Retinopathy Identification</strong></h3>
+              <p>
+                Berikut adalah cara menggunakan aplikasi Retinopathy Identification dengan benar
+              </p>
+            </div>
+    
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Pilih Gambar <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      Pilihlah gambar Citra Retina Fundus yang ada pada File Explorer anda
+                    </p>
+                  </div>
+                </li>
+    
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Tekan tombol Predict <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Tekan tombol Predict agar gambar yang telah dipilih melalukan proses Identifikasi dari sistem yang dibangun
+                    </p>
+                  </div>
+                </li>
+    
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Tampil Hasil Predict <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Identifikasi dari gambar yang diperolah pada halaman berikutnya
+                    </p>
+                  </div>
+                </li>
+    
+              </ul>
+            </div>
+    
+          </div>
+    
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+            style='background-image: url("../static/img/cara.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+    
+      </div>
+    </section><!-- End Cara Section -->
 
 
   </main><!-- End #main -->
